@@ -17,7 +17,7 @@ raytracer.o : raytracer.cpp raytracer.h
 raycast.o : raycast.cpp raycast.h
 	$(CC) -c $(FLAGS) -g raycast.cpp -o raycast.o
 shape.o : Shape.cpp Shape.h
-	$(CC) -c $(FLAGS) -g Shape.cpp -o Shape.o
+	$(CC) -c $(FLAGS) -g Shape.cpp -o shape.o
 clean :
 	rm asdf* *.o
 run: asdf
